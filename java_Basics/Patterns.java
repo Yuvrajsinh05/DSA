@@ -27,7 +27,17 @@ public class Patterns {
         //  }
 
      //outerloop
-         for(int i=1; i<=n ; i++){
+        //  for(int i=1; i<=n ; i++){
+        //     //innerLoop
+        //     for(int j=1; j<=i;j++){
+        //         System.out.print("*");
+             
+        //     }
+        //     System.out.println();
+        //  }
+
+
+         for(int i=n; i>=1 ; i--){
             //innerLoop
             for(int j=1; j<=i;j++){
                 System.out.print("*");
