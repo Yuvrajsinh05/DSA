@@ -15,11 +15,11 @@ public class Loops {
     //     i = i + 1; // i++
     // }
 
-    // int i = 0;
-    // do{
-    //     System.out.println(i);
-    //     i++;
-    // }while(i<11);
+    int i = 0;
+    do{
+        System.out.println(i);
+        i++;
+    }while(i<11);
  }   
 }
 
