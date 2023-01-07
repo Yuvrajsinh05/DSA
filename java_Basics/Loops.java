@@ -19,7 +19,7 @@ public class Loops {
     do{
         System.out.println(i);
         i++;
-    }while(i<11);
+    }while(i<11); 
  }   
 }
 
