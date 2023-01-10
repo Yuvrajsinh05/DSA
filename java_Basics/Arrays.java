@@ -14,8 +14,13 @@ public class Arrays {
         for(int i=0;i<siza;i++){
             marks[i]=sc.nextInt();
         }
-        for(int i=0;i<siza;i++){
-            System.out.println(marks[i]);
-        }
+        int x = sc.nextInt();
+        // for(int i=0;i<siza;i++){
+        //     System.out.println(marks[i]);
+            //    if(marks[i] ==x){
+            //     System.out.println("x found at index :" ,+i);
+            //    }
+        // }
+        System.out.println(marks.length);
     }
 }
