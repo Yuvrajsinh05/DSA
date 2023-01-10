@@ -7,9 +7,13 @@ public class Arrays {
         int siza = sc.nextInt();
         int marks[]= new int[siza];
         // int marks[]={97,98,95};
-        marks[0] = 97; //py
-        marks[1] = 98; //chem
-        marks[2] = 95; //eng
+        // marks[0] = 97; //py
+        // marks[1] = 98; //chem
+        // marks[2] = 95; //eng
+
+        for(int i=0;i<siza;i++){
+            marks[i]=sc.nextInt();
+        }
         for(int i=0;i<siza;i++){
             System.out.println(marks[i]);
         }
