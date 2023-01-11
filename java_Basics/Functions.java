@@ -16,17 +16,17 @@ public class Functions {
     //     System.out.println(sum);
     // }
 
-    // public static int calculateSum(int a ,int b) {
-    //   return a*b;
-    // }
-    // public static void main(String args[]){
-    //      Scanner sc =new Scanner(System.in);
-    //     int a =sc.nextInt();
-    //     int b =sc.nextInt();
+    public static int calculateSum(int a ,int b) {
+      return a*b;
+    }
+    public static void main(String args[]){
+         Scanner sc =new Scanner(System.in);
+        int a =sc.nextInt();
+        int b =sc.nextInt();
 
-    //     int sum = calculateSum(a, b);
-    //     System.out.println("the product of two num"+  sum);
-    // }
+        int sum = calculateSum(a, b);
+        System.out.println("the product of two num"+  sum);
+    }
 
 
     public static void printFactorial(int n) {
